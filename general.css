@@ -1,0 +1,73 @@
+#content {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(52, 52, 52);
+}
+
+header {
+    background-image: url(images/mise-en-plase.png);
+    background-position: center;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    text-decoration: underline;
+    background-color: black;
+    opacity: 70%;
+    
+    
+}
+
+.search {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+figure img {
+    max-width: 100%;
+}
+
+.oneRec {
+    background-color: beige;
+}
+
+.oneRecOdd {
+    background-color: aquamarine;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+li {
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 10px;
+    border: 5px;
+    border-color: black;
+    border-style: solid;
+    background-color: white;
+}
+
+footer li .foot {
+    padding: 20px;
+    border: none;
+    border-color: white;
+    border-style: none;
+}
+footer{
+    background-color: rgb(97, 95, 95);
+}
