@@ -71,3 +71,11 @@ footer li .foot {
 footer{
     background-color: rgb(97, 95, 95);
 }
+ button {
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 10px;
+  
+  
+ }
