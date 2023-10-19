@@ -27,6 +27,7 @@ h1 {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
+   
 }
 
 figure img {
@@ -49,6 +50,14 @@ ul {
     flex-wrap: wrap;
 }
 
+button.search {
+    padding: 5px;
+    
+}
+div.input {
+    display: flex;
+    justify-content: left;
+}
 
 
 li {
@@ -71,11 +80,21 @@ footer li .foot {
 footer{
     background-color: rgb(97, 95, 95);
 }
+
+footer h3 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: azure;
+}
+
  button {
     padding: 20px;
     padding-left: 40px;
     padding-right: 40px;
     margin: 10px;
+    background-color: rgb(52, 52, 52);
+    color: white;
   
   
  }
