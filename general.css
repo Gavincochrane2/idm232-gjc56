@@ -98,3 +98,25 @@ footer h3 {
   
   
  }
+ header h3{
+   text-align: center;
+   color: white;
+   text-shadow: 2px 2px  rgb(52, 52, 52);
+ }
+
+ figure:hover {
+    cursor: pointer;
+  }
+
+  button:hover {
+    cursor: pointer;
+  }
+
+  figure {
+    transition: border 0.3s; 
+  }
+  
+  figure:hover {
+    cursor: pointer;
+    border: 3px dashed rgb(107, 196, 121);
+  }
