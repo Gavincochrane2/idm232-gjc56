@@ -112,11 +112,15 @@ footer h3 {
     cursor: pointer;
   }
 
-  figure {
-    transition: border 0.3s; 
+  figure img {
+    transition: filter 0.3s; 
   }
   
-  figure:hover {
+  figure img:hover {
     cursor: pointer;
-    border: 3px dashed rgb(107, 196, 121);
   }
+
+  figure:hover img {
+    filter: brightness(70%); 
+  }
+  
