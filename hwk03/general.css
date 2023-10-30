@@ -1,0 +1,163 @@
+#content {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(52, 52, 52);
+    background-size: cover;
+}
+
+header {
+    background-image: url(images/mise-en-plase.png);
+    background-position: center;
+}
+div.ingredients img{
+    max-width: 70%;
+    max-height: 70%;
+    display: flex;
+
+ 
+    
+}
+
+div.steps h3 {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    text-decoration: underline;
+    background-color: black;
+    opacity: 70%;
+    
+    
+}
+
+.search {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+   
+}
+
+figure img {
+    max-width: 100%;
+}
+
+.oneRec {
+    background-color: beige;
+}
+
+.oneRecOdd {
+    background-color: aquamarine;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+button.search {
+    padding: 5px;
+    
+}
+
+div.ingredients {
+    display: flex;
+    justify-content: center;
+}
+div.input {
+    display: flex;
+    justify-content: left;
+}
+
+
+li {
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 10px;
+    padding-bottom: 10px;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    background-color: white;
+}
+
+footer li .foot {
+    padding: 20px;
+    border: none;
+    border-color: white;
+    border-style: none;
+}
+footer{
+    background-color: rgb(97, 95, 95);
+}
+
+footer h3 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: azure;
+}
+
+ button {
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 10px;
+    background-color: rgb(52, 52, 52);
+    color: white;
+  
+  
+ }
+ header h3{
+   text-align: center;
+   color: white;
+   text-shadow: 2px 2px  rgb(52, 52, 52);
+ }
+
+ figure:hover {
+    cursor: pointer;
+  }
+
+  button:hover {
+    cursor: pointer;
+  }
+
+  figure img {
+    transition: filter 0.3s; 
+  }
+  
+  figure img:hover {
+    cursor: pointer;
+  }
+
+  figure:hover img {
+    filter: brightness(70%); 
+  }
+
+  div.ingredients h3 {
+    text-align: center;
+  }
+  
+  @media screen and (max-width: 850px) {
+    div.ingredients img {
+      content: url(images/OrangeChickenIngredients-small.png); 
+      max-height: 300px;
+    }
+  }
+
+  @media screen and (max-width: 850px) {
+    div.ingredients {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
