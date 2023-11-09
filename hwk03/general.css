@@ -6,6 +6,32 @@
     justify-content: center;
     background-color: rgb(52, 52, 52);
     background-size: cover;
+  
+    
+}
+
+.desc {
+  background-color: rgb(52, 52, 52);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+
+ 
+}
+
+.desc p {
+  max-width: 60%;
+  align-self: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: large;
+  background-color: rgba(227, 186, 143, .3);
+
 }
 
 header {
@@ -121,27 +147,20 @@ footer h3 {
    text-align: center;
    color: white;
    text-shadow: 2px 2px  rgb(52, 52, 52);
+   background-color: rgba(227, 186, 143, .7);
+   background-size: contain;
  }
 
- figure:hover {
-    cursor: pointer;
-  }
+ 
 
   button:hover {
     cursor: pointer;
   }
 
-  figure img {
-    transition: filter 0.3s; 
-  }
-  
-  figure img:hover {
-    cursor: pointer;
-  }
 
-  figure:hover img {
-    filter: brightness(70%); 
-  }
+
+
+ 
 
   div.ingredients h3 {
     text-align: center;
@@ -160,4 +179,52 @@ footer h3 {
       justify-content: center;
       align-items: center;
     }
+  }
+
+  ol li img {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    justify-items: center;
+    text-align: center;
+    float: center;
+  
+  }
+
+  .steps li {
+    max-width: 40%;
+  }
+
+  ol {
+   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+justify-content: center;
+  }
+
+  @media screen and (max-width: 850px) {
+    ol {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  @media screen and (max-width: 850px) {
+    .steps li {
+      max-width: 80%;
+    }
+  }
+
+  @media screen and (min-width: 1337px) {
+    ol li img {
+      padding-left: 20px;
+    }
+  }
+  @media screen and (max-width: 850px) and (min-width: 746px) {
+    ol li img {
+      padding-left: 30px;
   }
