@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Case study - gjc56</title>
+    <link rel="stylesheet" href="general8.css">
+</head>
+<body>
+    <div class="hero">
+    <img src="images/hero.png" alt="hero image of final project">
+</div>
+    <h2>Overview</h2>
+    <p>This project was a culmination of everything I learned in Scripting for IDM II class applied to a fully functioning recipe discovery website titled "Chef's Table". I created 2 static web pages using only HTML and CSS and then applied PHP code to both pages in order to dynamically load different content depending on the users choices and inputs. Using PHP I implemented a working search feature as well as filters for each type of protein in the recipes. I had some issues with my formatting due to confusion when trying to echo my div's from the static page into the PHP pages but with the help of classmates and some extra research I was able to overcome all of these issues and get everything to work as intended. I think I was able to succesfully create a modern looking website that feels inviting for the users while being fully functional at the same time.</p>
+    
+    <h2>Context and Challenge</h2>
+    <p> <strong>Background:</strong> This was a project assigned to me for my Scripting for IDM II class at Drexel University. We learned how to code using PHP to get information from a database and dynamically build a website using that information.</p>
+        <p><strong>Timeline:</strong> This was a 10 week long project </p>
+        <p><strong>The problem:</strong> This project was designed to teach us how to use PHP to dynamically build a responsive webpage for people to find recipes. We had to create a home page and a detail page for the recipes using HTML and CSS and then incorperate PHP to build the page depending on what filters are input or what recipe the user clicks on.</p>
+       <p> <strong>Goals and Metrics:</strong> The goals of this project were to create a fully funtional recipe discovery page that allows for filtering and searching. We had to be able to understand the coding language and apply it to our stylized sites while also managing our databse and tweaking it to fit our needs. The success metrics for this project were as follows: Does all of the PHP code work as intended, can the user search and filter, and does the website have a professional looking layout. </p>
+    <hr>
+       <h2>Process and Insight</h2>
+    <div class="wrap">
+    <div class="image">
+    <img src="images/HeaderSpacing.png" alt="Homework 1 spacing issue in header">
+    </div>
+</div>
+    <p> To start this process off I had to build a static home page using only HTML and CSS so we had a stylized page to use as our base. This part was familiar because we had been using HTML and CSS to build webpages in previous years but for this project we had to make a professional looking site that would reflect the personality of a food/recipe blog. I took inspiration from foodnetwork and BlueAprons websites to see what these generally looked like and then from there I added my own personal twists and style. When making this static page I did have a little trouble with the spacing in the Header as you can see above in the attatched image. The buttons were a little too far to the right and the layout of my search bar was out of place. For our next assignment which was incorperating the PHP to this main page I addressed these issues and fixed them to the best of my ability. When adding the PHP into this page I did struggle at first with how to echo the div's that I created for my static page but after messing around with it and reviewing the class recording I was able to figure it out which was an enormous help for the rest of the term.</p> 
+    <hr>
+    <div class="wrap">
+    <div class="image">
+    <img src="images/StepFormat.png" alt="Step formatting on the detail page">
+</div></div>
+    <p> Now that I had the home page working and the PHP added with my div's properly applied for the layout I was ready to start on creating the static detail page. For this page we were required to have a return button, remove the filters and search, include the ingredients image, the main dish image with its description, and include all of the steps for making that dish with their respective image. We again made the page using just HTML and CSS then once that was done and submitted we moved on to incorperating the PHP code. The goal for this page was to have all the information for whatever recipe the user chose, display in the same format each time. Here, I had a lot of issues with the formatting of the steps because I wanted the step title and the text to be inside of the same box on the screen but when implimenting the PHP my div's and classes were not working properly. The way that I fixed this was to go back to my static page and I noticed that I was using list items for the formatting but I needed to replace that with individual div's that each held a part of the step, for example I had one div for the picture, one for the text, and one that held both of the others inside of it for the surrounding box. Once this issue was fixed I was able to get all of the PHP working and echoing my created div's so the format was where I wanted it to be.</p>
+        <hr>
+        <div class="wrap">
+            <div class="image">
+            <img src="images/finalSearch.png" alt="Final project search function">
+        </div></div>
+
+<p>Once both pages were complete and the PHP was implimented the last task to cover was to make it so the user could use the filters and search function. This required more new PHP that would link the two pages together as well as read in what the user searched or filtered and then produce only the recipes that contained their inputs. This was a bit of a struggle for me as I used the code that we were shown in class and it worked perfectly when I hosted the website locally. The problem came in when I imported my code into dreamhost and tried to host the site on the web, everything worked except for the search bar. When a user would search for something the page would go blank and it would not return any records even if the search was a valid input. Luckily, with the help of one of my classmates, I was able to find the one line of code that was causing my search issue. I deleted this line and loaded my website to find everything working properly. Oonce I had this working I made a few tweaks to the layout by differentiating between the title and subtitle of the recipe on the main page, and making the steps a single column layout so it was easier to read, which were the final touches to my final project.</p>
+
+
+    <h2>The Solution</h2>
+    <a href="http://gavinc.us/idm232/final" target="_blank">Click here to see the live website</a>
+    <video src="images/FinalOverview.mov" controls loop class="final"></video>
+    <p>The final project is a combination of all of the assets and pages described before, put together to form one cohesive website that includes HTML, CSS, and PHP code. After solving all of my issues in the early stages of creation I was able to make a fully functioning website that dynamically creates the content using the recipes database. I chose to use the layout on the main page because I wanted each recipe to be visually engaging and eye catching which is what led to my decision of having a 2 column layout rather than a 3 column layout. I used that same philosophy for the layout of my detail page as I mentioned earlier, I wanted the steps to be easy to read and focus on so I chose to do a single column layout so I could increase the size of each step. I chose the colors dark grey and white as my main colors because I wanted the site to have a clean modern look.</p>
+    <h2>The Result</h2>
+    <p>Overall, this project was a success and was able to teach me a lot about the coding language PHP and how to apply it to already styled pages in order to dynamically build the page using content from a database. Although I did have issues at first, I was able to get all of my code working as well as the live website and I am very proud of that. I was able to brush up on my HTML and CSS skills which was nice because even though I have been using it for a few years now I still had format issues and had to do some extra research to resolve these issues. If I were to do this project again I think it would go much smoother because of what I have learned over the course of this term, the biggest being to not use list items when creating a detailed asset that includes multiple different forms of content. I also would have put a little more time into the layout of my detail page as I feel like it could be better organized. One thing I would like to change is where I list out the ingredients. I put each of them into their own box and this caused some issues with the layout so if I were to do it again I would change it to a bulleted list without borders and I think that would greatly improve the look.</p>
+    
+    
+</body>
+</html>
